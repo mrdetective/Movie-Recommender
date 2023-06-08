@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results</title>
+    <link rel="stylesheet" href="restyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="icon" href="Images/favicon-32x32.png" type="image/x-icon" />
+  </head>
+  <div class="navbar">
+    <a class="leftnav" href="#">Movie Recomender</a>
+    <a class="rightnav" href="#">About</a>
+    <a
+      class="rightnav"
+      href="https://www.linkedin.com/in/harsha-gupta-397314136/"
+      ><img class="linkedin" src="Images/linkedin.png" alt=""
+    /></a>
+    <a class="rightnav" href="https://www.instagram.com/hrsha.___/"
+      ><img class="instagram" src="Images/instagram.png" alt=""
+    /></a>
+    <a class="rightnav" href="https://twitter.com/LLawlie71551244"
+      ><img class="twitter" src="Images/twitter.png" alt=""
+    /></a>
+  </div>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="./Images/resback.mp4" type="video/mp4" />
+    </video>
+    <h2>Behold, a cinematic feast awaits! Presenting movies, just for you!</h2>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper"></div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="loadingbox">
+      <img src="Images/loading.svg" class="loading" />
+      <h3 class="textload">Loading..</h3>
+    </div>
+    <script type="module" src="./rescript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </body>
+</html>

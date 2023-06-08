@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Exo+2:wght@100&family=Inter:wght@100;200;300;400&family=Permanent+Marker&family=Righteous&family=Tajawal:wght@200;900&display=swap");
+.navbar {
+  background: transparent;
+  position: sticky;
+  margin: -10px -8px 3px -8px;
+  z-index: 100;
+  padding: 16px 10px;
+  height: 24px;
+  background-color: #1b1a1a;
+}
+
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-family: "Exo 2", sans-serif;
+}
+
+.rightnav {
+  float: right;
+  margin-right: 30px;
+}
+
+.leftnav {
+  margin-left: 17px;
+}
+
+.box {
+  height: 100vh;
+  width: 767px;
+  background-color: black;
+  margin-left: -8px;
+  margin-top: -17px;
+  margin-bottom: -11px;
+  color: #ffffff;
+}
+
+.boxtext {
+  margin-top: 30px;
+  margin-left: 1.5rem;
+  position: absolute;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: "Exo 2", sans-serif;
+  animation: fade-in 1s linear 1;
+  text-align: justify;
+  width: 700px;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+}
+body {
+  overflow: hidden;
+}
+
+#myVideo {
+  position: absolute;
+  top: 44px;
+  left: 415px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+img {
+  height: 30px;
+  margin-left: -7px;
+  margin-top: -4px;
+  border-radius: 10px;
+}
+
+.twitter {
+  margin-top: -5px;
+  height: 33px;
+}
