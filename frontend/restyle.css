@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Exo+2:wght@100&family=Inter:wght@100;200;300;400&family=Permanent+Marker&family=Righteous&family=Tajawal:wght@200;900&display=swap");
+
+.navbar {
+  background: transparent;
+  position: sticky;
+  margin: -10px -8px 3px -8px;
+  z-index: 100;
+  padding: 16px 10px;
+  height: 17px;
+  background-color: #1b1a1a;
+}
+.rightnav {
+  float: right;
+  margin-right: 30px;
+}
+
+.leftnav {
+  margin-left: 17px;
+}
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-family: "Exo 2", sans-serif;
+}
+
+#myVideo {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+img {
+  margin-top: 124px;
+  margin-left: 390px;
+  border-radius: 15px;
+}
+
+.box1 {
+  background-color: #202125;
+  height: 307px;
+  width: 618px;
+  margin-left: 500px;
+  /* margin-right: -500px; */
+  margin-top: 169px;
+  margin-bottom: -499px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.box {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: rgb(255, 255, 255);
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #df1024;
+}
+
+div.swiper-button-next,
+div.swiper-button-prev {
+  color: #df1024;
+}
+
+h2 {
+  color: wheat;
+  font-family: "Exo 2", sans-serif;
+  margin-top: 58px;
+  margin-bottom: -65px;
+  margin-left: 417px;
+  text-decoration: double;
+}
+
+.summary {
+  /* margin-bottom: 10px; */
+  display: block;
+  padding: 70px;
+  margin-left: 142px;
+  text-align: justify;
+  font-family: "Exo 2", sans-serif;
+}
+
+.title {
+  padding: 18px;
+  margin-left: 191px;
+}
+
+.summarytitle {
+  margin-top: 57px;
+  margin-bottom: -73px;
+  margin-left: 201px;
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bolder;
+}
+
+.ratingtitle {
+  margin-top: -65px;
+  margin-bottom: -2px;
+  margin-left: 201px;
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bolder;
+}
+
+.IMDB {
+  margin-top: -65px;
+  margin-bottom: -73px;
+  margin-left: 201px;
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.metacritic {
+  margin-top: 14px;
+  margin-bottom: -73px;
+  margin-left: -74px;
+  padding-top: 10px;
+  font-family: "Exo 2", sans-serif;
+  position: absolute;
+}
+
+.instagram {
+  height: 30px;
+  margin-left: -6px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+.linkedin {
+  height: 30px;
+  margin-left: -6px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+.twitter {
+  margin-top: -2px;
+  height: 33px;
+  border-radius: 10px;
+}
+
+.loadingbox {
+  margin-top: 100px;
+  margin-left: 696px;
+}
+.loading {
+  margin-left: -20px;
+  height: 100px;
+  width: 100px;
+}
+
+.textload {
+  margin-left: -5px;
+  margin-top: -7px;
+  color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

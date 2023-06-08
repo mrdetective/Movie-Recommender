@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Exo+2:wght@100&family=Inter:wght@100;200;300;400&family=Righteous&display=swap");
+
+.navbar {
+  background: transparent;
+  position: sticky;
+  margin: -10px -8px 3px -8px;
+  z-index: 100;
+  padding: 16px 10px;
+  height: 17px;
+  background-color: #1b1a1a;
+}
+
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-family: "Exo 2", sans-serif;
+}
+
+.rightnav {
+  float: right;
+  margin-right: 30px;
+}
+
+.leftnav {
+  margin-left: 17px;
+}
+
+body {
+  background: url("./Images/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.box {
+  height: 100vh;
+  width: 500px;
+  background-color: black;
+  margin-left: -8px;
+  margin-top: -17px;
+  margin-bottom: -11px;
+  color: #ffffff;
+}
+
+.boxtext {
+  margin-top: 100px;
+  margin-left: 1.5rem;
+  position: absolute;
+  font-size: 40px;
+  overflow: hidden; /* Ensures text doesn't overflow the div */
+  font-family: "Exo 2", sans-serif;
+  animation: fade-in 1s linear 1;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.btn {
+  border: 10px;
+  position: absolute;
+  color: white;
+  margin-top: 325px;
+  margin-left: 1.5rem;
+  background-color: black;
+  padding: 7px;
+  border-color: white;
+  border-style: solid;
+  border-width: 1.5px;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #df1024;
+  color: white;
+  cursor: pointer;
+  border-color: #df1024;
+}
+
+img {
+  height: 30px;
+  margin-left: -6px;
+  border-radius: 10px;
+  margin-top: -3px;
+}
+
+.twitter {
+  margin-top: -4px;
+  height: 33px;
+}
+
+.twitter,
+.linkedin,
+.instagram:hover {
+  cursor: pointer;
+}
+
+.poweredby {
+  margin-top: 617px;
+  margin-left: 231px;
+  position: absolute;
+  font-family: "Exo 2", sans-serif;
+  color: #df1024;
+  font-weight: bolder;
+}
