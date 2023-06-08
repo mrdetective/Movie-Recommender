@@ -44,6 +44,7 @@ By following this structured approach, the website ensures that users receive pe
 The project has been successfully deployed and is accessible through the following official link: https://moviereco.netlify.app. Users can visit this link to access the MovieReco website and enjoy the personalized movie recommendation features offered by the platform
 
 
+
 ## A Glimpse into MovieReco's User Experience
 
 ### 1. Landing Page
@@ -57,3 +58,11 @@ The project has been successfully deployed and is accessible through the followi
 ### 3. About Page
 
 ![Logo](https://github.com/mrdetective/Cover_img/blob/main/about.png)
+
+### 4. Custom Genre
+
+![Logo](https://github.com/mrdetective/Cover_img/blob/main/custom_genre.png)
+
+### 5. Result
+
+![Logo](https://github.com/mrdetective/Cover_img/blob/main/result_page.png)
