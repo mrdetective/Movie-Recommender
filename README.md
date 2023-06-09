@@ -20,7 +20,7 @@ MovieReco is an innovative movie recommendation website that utilizes the power 
 **Server:** Node, Express
 
 
-![Logo](https://github.com/mrdetective/Movie-Recommender/blob/main/frontend/Images/android-chrome-512x512.jpeg)
+![Logo](https://github.com/mrdetective/Movie-Recommender/blob/main/public/Images/android-chrome-512x512.jpeg)
 
 
 ## Structure
