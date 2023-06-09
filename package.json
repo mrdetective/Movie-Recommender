@@ -4,7 +4,8 @@
   "type": "module",
   "main": "script.js",
   "scripts": {
-    "start": "node server.js"
+    "dev2": "nodemon ./backend/moviefetch.js",
+    "dev": "nodemon ./backend/server.js"
   },
   "repository": {
     "type": "git",

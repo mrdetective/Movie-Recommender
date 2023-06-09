@@ -4,8 +4,9 @@ config();
 import {Configuration, OpenAIApi} from "openai";
 import express, {json} from "express";
 import cors from "cors";
+
 const app = express();
-const port = process.env.PORT || 8383;
+const port = 8383;
 app.use(cors());
 
 function findmovies(response) {
@@ -52,19 +53,20 @@ app.get("/", (req, resp) => {
       ],
     })
     .then((res) => {
+      console.log(res.data.choices[0].message);
       var res_string = res.data.choices[0].message.content;
-      const movies = findmovies(res_string);
+      const movies = "";
       resp.send(movies);
     })
     .catch((error) => {
-      var res_string = res.data.choices[0].message.content;
+      var res_string = error.data.choices[0].message.content;
       openai
         .createChatCompletion({
           model: "gpt-3.5-turbo",
           messages: [
             {
               role: "system",
-              content: `Convert the given string : ${res_string} into a JSON format and don't add any extra commentary and if the string is already in a json format then give me the string itself`,
+              content: `Convert the given string : ${res_string} into a JSON format and don't add any extra commentary and if the string is already in a JSON format then give me the string itself`,
             },
           ],
         })
@@ -75,11 +77,12 @@ app.get("/", (req, resp) => {
           resp.send(movies);
         })
         .catch((error) => {
+          console.log(1);
           console.log(error);
         });
-      // consolelog(final_string);
     });
 });
+
 app.listen(port, () => {
-  `Server has started on port: ${port}`;
+  console.log(`Server has started on port: ${port}`);
 });

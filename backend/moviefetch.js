@@ -5,7 +5,7 @@ import express from "express";
 import cors from "cors";
 
 const app = express();
-const port = process.env.PORT || 8484;
+const port = 8484;
 
 app.use(cors());
 

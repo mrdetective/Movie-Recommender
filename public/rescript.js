@@ -42,6 +42,7 @@ async function recievemovienames(e) {
     const res = await fetch(url, {
       method: "GET",
     });
+    console.log(await res.text());
     const movienames1 = JSON.parse(await res.text());
     return movienames1;
   } catch (error) {
