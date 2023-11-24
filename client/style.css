@@ -27,7 +27,7 @@ a {
 }
 
 body {
-  background: url("./assets/background/background1.jpg");
+  background: url("./assets/backgrounds/background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -103,8 +103,8 @@ img {
 }
 
 .poweredby {
-  margin-top: 617px;
-  margin-left: 231px;
+  margin-top: 40rem;
+  margin-left: 12rem;
   position: absolute;
   font-family: "Exo 2", sans-serif;
   color: #df1024;
