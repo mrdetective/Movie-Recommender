@@ -18,7 +18,7 @@
 body {
   top: 0;
   left: 0;
-  background: url("./Images/background_start.jpg") no-repeat;
+  background: url("../../assets/backgrounds/background_start.jpg") no-repeat;
   backdrop-filter: brightness(30%);
   background-size: cover;
   width: 100vw;

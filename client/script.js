@@ -1,11 +1,11 @@
 const getstarted = document.querySelector(".btn");
 getstarted.addEventListener("click", () => {
-  window.location.href = "start.html";
+  window.location.href = "./pages/genres";
 });
 
 const about = document.querySelector(".rightnav.about");
 about.addEventListener("click", () => {
-  window.location.href = "about.html";
+  window.location.href = "./pages/about";
 });
 
 const home = document.querySelector(".leftnav");

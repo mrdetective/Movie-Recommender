@@ -4,7 +4,7 @@
   background: transparent;
   position: sticky;
   margin: -10px -8px 3px -8px;
-  z-index: 100;
+  z-index: 1;
   padding: 16px 10px;
   height: 17px;
   background-color: #1b1a1a;
@@ -35,39 +35,17 @@ a {
   filter: brightness(50%);
 }
 
-img {
-  margin-top: 124px;
-  margin-left: 390px;
-  border-radius: 15px;
-}
-
-.box1 {
-  background-color: #202125;
-  height: 307px;
-  width: 618px;
-  margin-left: 500px;
-  /* margin-right: -500px; */
-  margin-top: 169px;
-  margin-bottom: -499px;
-  border-radius: 10px;
-  color: aliceblue;
-}
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 30rem;
+  height: 30rem;
 }
 
 .swiper {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.box {
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .swiper-pagination .swiper-pagination-bullet {
@@ -80,64 +58,6 @@ img {
 div.swiper-button-next,
 div.swiper-button-prev {
   color: #df1024;
-}
-
-h2 {
-  color: wheat;
-  font-family: "Exo 2", sans-serif;
-  margin-top: 58px;
-  margin-bottom: -65px;
-  margin-left: 417px;
-  text-decoration: double;
-}
-
-.summary {
-  /* margin-bottom: 10px; */
-  display: block;
-  padding: 70px;
-  margin-left: 142px;
-  text-align: justify;
-  font-family: "Exo 2", sans-serif;
-}
-
-.title {
-  padding: 18px;
-  margin-left: 191px;
-}
-
-.summarytitle {
-  margin-top: 57px;
-  margin-bottom: -73px;
-  margin-left: 201px;
-  padding: 10px;
-  font-family: "Exo 2", sans-serif;
-  font-weight: bolder;
-}
-
-.ratingtitle {
-  margin-top: -65px;
-  margin-bottom: -2px;
-  margin-left: 201px;
-  padding: 10px;
-  font-family: "Exo 2", sans-serif;
-  font-weight: bolder;
-}
-
-.IMDB {
-  margin-top: -65px;
-  margin-bottom: -73px;
-  margin-left: 201px;
-  padding: 10px;
-  font-family: "Exo 2", sans-serif;
-}
-
-.metacritic {
-  margin-top: 14px;
-  margin-bottom: -73px;
-  margin-left: -74px;
-  padding-top: 10px;
-  font-family: "Exo 2", sans-serif;
-  position: absolute;
 }
 
 .instagram {
@@ -175,4 +95,54 @@ h2 {
   margin-top: -7px;
   color: aliceblue;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+img {
+  height: 30rem;
+  border-radius: 1rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 35rem;
+  align-items: center;
+}
+
+.box1 {
+  width: 40%;
+  margin-right: 10rem;
+  height: 20rem;
+  background-color: #1b1a1a;
+  border-radius: 1rem;
+}
+
+.title {
+  color: wheat;
+  font-family: "Exo 2", sans-serif;
+  margin-left: 1rem;
+}
+
+.summarytitle {
+  color: wheat;
+  font-family: "Exo 2", sans-serif;
+  margin-left: 1rem;
+}
+.summary {
+  color: whitesmoke;
+  font-family: "Exo 2", sans-serif;
+  margin-left: 1rem;
+  text-align: left;
+}
+.IMDB {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: whitesmoke;
+  font-family: "Exo 2", sans-serif;
+}
+.metacritic {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  color: whitesmoke;
+  font-family: "Exo 2", sans-serif;
 }

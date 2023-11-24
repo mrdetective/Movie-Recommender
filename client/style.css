@@ -27,7 +27,7 @@ a {
 }
 
 body {
-  background: url("./Images/background1.jpg");
+  background: url("./assets/backgrounds/background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;

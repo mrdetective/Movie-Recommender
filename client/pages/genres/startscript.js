@@ -44,12 +44,12 @@ clearall.addEventListener("click", () => {
 
 const home = document.querySelector(".leftnav");
 home.addEventListener("click", () => {
-  window.location.href = "index.html";
+  window.location.href = "../../";
 });
 
 const about = document.querySelector(".rightnav.about");
 about.addEventListener("click", () => {
-  window.location.href = "about.html";
+  window.location.href = "../about";
 });
 
 const gobtn = document.querySelector(".btn");
@@ -59,7 +59,7 @@ gobtn.addEventListener("click", () => {
     warning.innerHTML = "**Warning: You must select atleast one genre!";
   } else {
     localStorage.setItem("selected_genres", JSON.stringify(selected_genres));
-    window.location.href = "result.html";
+    window.location.href = "../result";
   }
 });
 
