@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-
-# MovieReco
-
-=======
-
 # MovieReco
 
 MovieReco is an innovative movie recommendation website that utilizes the power of Google PaLM 2 and the TMDB database to offer personalized movie suggestions based on user-input genres. With MovieReco, users can not only explore a vast collection of movies but also add custom genres to enhance their recommendations. Additionally, MovieReco allows users to discover movies based on mixed genres, enabling a unique and diverse viewing experience.
